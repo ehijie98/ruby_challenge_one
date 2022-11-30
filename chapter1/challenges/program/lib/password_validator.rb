@@ -10,7 +10,7 @@ def valid?(password)
             counter += 1
         end
     end
-    if counter > 0 && password.length > 7
+    if counter >= 1 && password.length > 7
         return true
     else
         return false
